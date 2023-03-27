@@ -1,4 +1,4 @@
-const faker = require('faker');
+const { faker } = require('@faker-js/faker');
 
 function generateUser() {
   const firstName = faker.name.firstName();
