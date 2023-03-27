@@ -1,11 +1,19 @@
 {
   "name": "random-user-data-generator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This is a npm package which generates user random data",
   "main": "index.js",
+  "source": "index",
+  "files": [
+    "index"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "node",
+    "faker"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vinit-joshi-tech/random-user-data-generator.git"
@@ -17,6 +25,6 @@
   },
   "homepage": "https://github.com/vinit-joshi-tech/random-user-data-generator#readme",
   "dependencies": {
-    "faker": "^6.6.6"
+    "@faker-js/faker": "^7.6.0"
   }
 }
